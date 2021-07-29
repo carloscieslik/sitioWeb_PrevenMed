@@ -1,0 +1,25 @@
+/*====================================CONTENT CONTACT=================================*/
+
+
+.map{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.contactDataIcon{
+    @include flex(row, flex-start, center);
+    margin: $mp-0-75 0px 0px $mp-2;
+    
+    i{
+        @extend %icon;
+    }
+
+    &__description{
+        font-size: $h3-font-size;
+    }
+}
+
+
+
+

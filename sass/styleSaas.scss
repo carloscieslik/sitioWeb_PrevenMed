@@ -1,0 +1,109 @@
+
+/*========== Colors ==========*/
+
+$first-hue-color: 200; /*Light Blue*/
+$second-hue-color: 247; /*Blue*/
+$acent-hue-color: 135; /*Green*/
+$text-hue-color: 235; /*Grey*/
+
+/* HSL color mode */
+$first-color: hsl(($first-hue-color), 100%, 50%);
+$second-color: hsl(($second-hue-color), 100%, 18%);
+$acent-color: hsl(($acent-hue-color), 100%, 49%);
+$title-color: hsl(($first-hue-color), 100%, 7%);
+$text-color: hsl(($text-hue-color), 6%, 27%);
+$gradient-color: hsl(($first-hue-color), 100%, 80%);
+$container-color: #fff;
+
+/*========== Font and typography ==========*/
+$body-font: 'Montserrat', sans-serif;
+
+/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+$big-font-size: 2.5rem;
+$h1-font-size: 2rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.25rem;
+$normal-font-size: .938rem;
+$small-font-size: .813rem;
+
+
+/*========== Font weight ==========*/
+$font-normal: 300;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 800;
+
+/*========== Margins / Padding ==========*/
+/* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+$mp-0-25: .25rem;
+$mp-0-5: .5rem;
+$mp-0-75: .75rem;
+$mp-1: 1rem;
+$mp-1-5: 1.5rem;
+$mp-2: 2rem;
+$mp-2-5: 2.5rem;
+$mp-3: 3rem;
+
+/*=============== Formato General ==============*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $body-font;
+}
+
+
+
+/*=============== Mixins ==============*/
+
+@mixin flex ($dir, $jc, $alitems) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $jc;
+    align-items: $alitems;
+}
+
+@mixin animationTitle {
+    animation: {
+        duration: 2s;
+        name: titleOpacity;
+    }
+}
+
+@mixin animationFadeIn {
+    animation: {
+        duration: 3s;
+        name: fadeIn;
+        direction: alternate;
+    }
+    
+}
+
+/*=============== PLaceholders ==============*/
+
+%titleNos{
+    font-weight: $font-semi-bold;
+    font-size: $h1-font-size;
+}
+
+
+%icon{
+    font-size: $h1-font-size;
+    transition: font-size 2s;
+    color: $first-color;
+    margin: $mp-0-25;
+}
+
+/*=============== import ==============*/
+
+@import "header";
+@import "home";
+@import "nosotros";
+@import "novedades";
+@import "miEspacio";
+@import "contacto";
+@import "footer";
+@import "animations";
+@import "mediaqueries";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "modifBootstrap";

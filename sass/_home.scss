@@ -1,0 +1,70 @@
+/*=========================================CONTENT AREA HOME====================================*/
+/*Formato al contenido*/
+
+.bodyHome{
+    font-size: $normal-font-size;
+    background-color: $container-color;
+    @include flex(column, space-between, space-around);
+    height: 100vh;
+}
+
+.contentHomeClass{
+    @include flex(row, space-between, center);
+}
+
+.descriptionPage{
+    margin-left: 30px;
+
+
+    &__title{
+        font-size: $big-font-size;
+        @include animationTitle;
+    }
+
+
+    &__subTitle{
+        font-size: $h2-font-size;
+        @include animationTitle;
+    }
+        
+}
+
+
+
+/*Formato de los articulos del Home*/
+.articleContent{
+    @include flex(row, space-evenly, space-evenly);
+}
+
+.articleHome{
+    width: 40%;
+    border: solid 2px ($second-color);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 15px 15px 5px 0px;
+    @include animationFadeIn;
+    &__title{
+        font-size: $h3-font-size;
+    }
+}
+
+
+.articleCard__img{
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.articleText{
+    color: $text-color;
+    
+    &__paragraph{
+        font-size: $normal-font-size;
+    }
+}
+
+.asideImgHome{
+    width: 150vw;
+    @include animationTitle;
+}
+

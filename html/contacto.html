@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web del sanatorio médico PrevenMed, se informa los medios de contacto con PrevenMed, sanatorio médico en la ciudad de Posadas-Misiones.">
+    <meta name="keywords" content="sanatorio, medicina, prevención, médicos, cardiología, traumatología, neurología, consultas médicas, turnos">
+    <meta name="author" content="Carlos Cieslik">
+    <title>Contacto</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../sass/styleSaas.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.png"> 
+    <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600;900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="headerClass">
+        <a href="../index.html"><img src="../assets/img/LOGO.png" alt="Logo" class="headerClass__Logo"></a>
+        <nav>
+            <ul class="headerMenu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+                <li><a href="miEspacio.html">Mi Espacio</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contentContactClass">
+        <div class="descriptionPage">
+            <h1 class="descriptionPage__title">Contacto</h1>
+            <h2 class="descriptionPage__subTitle">Podés realizar tus consultas por cualquiera de nuestros medios de contacto</h2>
+        </div>
+        <section class="sectionContact">
+                    <div class="contactDataIcon">
+                        <i class="fas fa-phone"></i>
+                        <h4 class="contactDataIcon__description">Teléfonos: 3764-678-987</h4>
+                    </div>
+                    <div class="contactDataIcon">
+                        <i class="fab fa-whatsapp-square"></i>
+                        <h4 class="contactDataIcon__description">Whatsapp: 3764-345123</h4>
+                    </div>
+                    <div class="contactDataIcon">
+                        <i class="fas fa-envelope"></i>
+                        <h4 class="contactDataIcon__description">E-mail: esteEsElMail@mail.com</h4>
+                    </div>
+                   
+            <section>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.415704672114!2d-55.89500188482842!3d-27.362729918713278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be32e3bf87f5%3A0x3699a7b648a52741!2sPredigma%20-%20Centro%20de%20Medicina%20Preventiva!5e0!3m2!1ses-419!2sar!4v1625334832829!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+    
+        </section>
+<!--Section: Contact-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Mensaje</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">¿Querés realizar alguna consulta? Envianos un mensaje y nos pondremos en contacto a la brevedad</p>
+        
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Nombre</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">e-mail</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Motivo de la Consulta</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Escriba su mensaje aquí</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+    </div>
+
+</section>
+<!--Section: Contact-->
+    </main>
+    <footer class="zocalo">
+        <div class="zocalo__SocialMedia">
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-whatsapp-square"></i></a>
+        </div>
+        <div class="zocalo__Contact">
+            <h6 class="zocalo__Contact--description">Dirección:Rivadavia 1888, Posadas-Misiones</h6>
+            <h6 class="zocalo__Contact--description"><strong>Telefono:</strong> 3764-4567-5678</h6>
+            <h6 class="zocalo__Contact--description"><strong>Horario de atención:</strong> de 7:00 a 20:00hs</h6>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script> 
+</body>
+</html>

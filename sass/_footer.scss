@@ -1,0 +1,31 @@
+/*=========================================FOOTER=========================================*/
+/*Formato al footer*/
+.zocalo {
+    /*background-color: var(--container-color);*/
+    background-image: linear-gradient(to top, ($gradient-color), #fff 50%);
+    padding: $mp-2;
+    
+    &__SocialMedia {
+        @include flex(row, center, center);
+        
+        i {
+            @extend %icon;
+            
+            &:hover{
+                font-size: $big-font-size;
+                color: $second-color;
+                transition: .5s;
+            }
+        }
+    }
+    
+    &__Contact {
+        @include flex(row, center, center);
+        
+        &--description {
+            margin: $mp-0-5;
+        }
+    }
+}
+    
+

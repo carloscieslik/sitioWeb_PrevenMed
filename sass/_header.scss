@@ -1,0 +1,39 @@
+/*=========================================HEADER====================================*/
+/*Formato al header*/
+.headerClass{
+    @include flex (row, space-between, center);
+    background-image: linear-gradient(to left, ($gradient-color), #fff 50%);
+}
+
+.headerClass__Logo{
+    width: 100px;
+    margin-left: 15px;
+}
+
+.headerMenu{
+    @include flex (row, space-between, center);
+
+        li {
+        background-color: $first-color;
+        padding: 0.4rem;
+        margin: $mp-0-25;
+        border-radius: 5px;
+        list-style: none;
+
+            &:hover{
+            background-color: $second-color;
+            transition: .5s;
+            }
+        
+        
+            a {
+                font:   {
+                    size: $h3-font-size;
+                    weight: $font-medium;
+                }
+                color: #fff;
+                text-decoration: none;
+                
+            }
+        }
+    }

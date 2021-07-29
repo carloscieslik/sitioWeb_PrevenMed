@@ -1,0 +1,87 @@
+/*=========================================MEDIA QUERIES=========================================*/
+/*Movil grande*/
+@media (max-width: 480px){
+    
+    nav{
+        width: 100%;
+    }
+        .headerClass{
+            flex-direction: column;
+            background-image: linear-gradient(to bottom, $gradient-color, #fff 50%);
+        }
+
+        .headerMenu{
+            @include flex(column, center, stretch);
+            text-align: center;
+            
+        }
+
+
+   
+    .contentHomeClass{
+        flex-direction: column-reverse;
+    }
+
+
+    .articleContent{
+        @include flex(column, center, center);
+        
+        .articleHome{
+            width: 90%;
+            text-align: center;
+            margin: 10px;
+        }
+    }
+
+    .zocalo__Contact {
+        @include flex(column, center, center);
+    }
+
+    .asideImgHome{
+        display: none;
+    }
+
+    .estudios{
+        flex-direction: column;
+    }
+
+    .saludClass{
+        flex-direction: column;
+    }
+
+    .turnos{
+        @include flex(column, center, center);
+        &__form{
+            @include flex(column, center, center);
+             
+        }
+    }
+
+
+
+}
+
+/*ipads y tablets*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+   
+    .contentHomeClass{
+        flex-direction: column;
+    }
+
+    .asideImgHome{
+        display: none;
+    }
+
+    .articleHome{
+        width: 90%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+
+}
+

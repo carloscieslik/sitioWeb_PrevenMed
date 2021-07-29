@@ -1,0 +1,97 @@
+/*=========================================CONTENT AREA MI ESPACIO====================================*/
+
+/*.mainMiEspacio{
+}*/
+
+.contentMiespacioClass{
+    @include flex(column, space-evenly, space-evenly);
+    margin-left: $mp-1-5;
+    
+}
+
+
+.turnos{
+    border: 2px solid $first-color;
+    border-radius: 5px;
+    padding: $mp-1-5;
+    margin-bottom: $mp-1;
+    margin-right: $mp-1;
+
+    &__form{
+        @include flex(row, space-evenly, center);
+    }
+    
+}
+
+
+input{
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.sectionHistorial__title{
+    padding: $mp-0-75 0px;
+    @include animationTitle;
+}
+
+.turnoClass{
+    border: solid 2px $second-color;
+    border-radius: 10px;
+    padding: $mp-0-5;
+    margin-bottom: $mp-1;
+    margin-right: $mp-1;
+}
+
+.sectionEstudio{
+    width: 100%;
+    
+    &__title {
+        padding: $mp-0-75 0px;
+        @include animationTitle;
+    }
+    
+}
+
+.estudios{
+    @include flex(row, center, center);
+}
+
+.estudioClass{
+
+    &__img{
+        width: 300px;
+        height: 300px;  
+    }
+    
+    &__description{
+        text-align: center;
+    }
+}
+
+
+.sectionSalud{
+    width: 100%;
+   
+    &__title{
+        padding: $mp-0-75 0px;
+        @include animationTitle;
+        
+    }
+}
+
+.saludClass{
+    @include flex(row, space-evenly, center);
+}
+
+
+.tipSalud{
+
+    &__iframe {
+        width: 400px;
+        height: 200px;
+        padding: 20px;
+    }
+}
+
+
