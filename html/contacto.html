@@ -46,89 +46,70 @@
                         <i class="fas fa-envelope"></i>
                         <h4 class="contactDataIcon__description">E-mail: esteEsElMail@mail.com</h4>
                     </div>
-                   
             <section>
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.415704672114!2d-55.89500188482842!3d-27.362729918713278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be32e3bf87f5%3A0x3699a7b648a52741!2sPredigma%20-%20Centro%20de%20Medicina%20Preventiva!5e0!3m2!1ses-419!2sar!4v1625334832829!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </section>
-    
         </section>
-<!--Section: Contact-->
-<section class="mb-4">
+        <!--Contact Form-->
+        <section class="mb-4">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Mensaje</h2>
+        <p class="text-center w-responsive mx-auto mb-5">¿Querés realizar alguna consulta? Envianos un mensaje y nos pondremos en contacto a la brevedad</p>
+            
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Nombre</label>
+                                <input type="text" id="name" name="name" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
 
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Mensaje</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">¿Querés realizar alguna consulta? Envianos un mensaje y nos pondremos en contacto a la brevedad</p>
-        
-
-    <div class="row">
-
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <label for="name" class="">Nombre</label>
-                            <input type="text" id="name" name="name" class="form-control">
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">e-mail</label>
+                                <input type="text" id="email" name="email" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="subject" class="">Motivo de la Consulta</label>
+                                <input type="text" id="subject" name="subject" class="form-control">
+                            </div>
                         </div>
                     </div>
-                    <!--Grid column-->
+                    <!--Grid row-->
+                    <div class="row">
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <label for="email" class="">e-mail</label>
-                            <input type="text" id="email" name="email" class="form-control">
+                        <!--Grid column-->
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <label for="message">Escriba su mensaje aquí</label>
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            </div>
                         </div>
                     </div>
-                    <!--Grid column-->
+                    <!--Grid row-->
+                </form>
 
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <label for="subject" class="">Motivo de la Consulta</label>
-                            <input type="text" id="subject" name="subject" class="form-control">
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <label for="message">Escriba su mensaje aquí</label>
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                <div class="status"></div>
             </div>
-            <div class="status"></div>
+            <!--Grid column-->
         </div>
-        <!--Grid column-->
-    </div>
-
-</section>
-<!--Section: Contact-->
+        </section>
     </main>
     <footer class="zocalo">
         <div class="zocalo__SocialMedia">

@@ -63,6 +63,10 @@ input{
         width: 300px;
         height: 300px;  
     }
+
+    &__img:hover{
+        cursor: pointer;
+    }
     
     &__description{
         text-align: center;

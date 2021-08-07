@@ -12,7 +12,7 @@
 
 .headerMenu{
     @include flex (row, space-between, center);
-
+    margin-right: $mp-1 ;
         li {
         background-color: $first-color;
         padding: 0.4rem;
