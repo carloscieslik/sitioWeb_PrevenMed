@@ -16,6 +16,9 @@ Project is created with:
 * Novedades (Blog): Latest News related to prevenmed
 * Mi Espacio (My space): Section where users can manage their shifts and view their medical studies.
 * Contacto (Contact): Prevenmed contact form and data.
+![Inicio_Nos](https://user-images.githubusercontent.com/82588598/128750583-292f1ee7-628d-45f4-bdca-e38f4c453b27.png)
+![Nov_MiEspacio](https://user-images.githubusercontent.com/82588598/128750605-3d613d0a-1a96-4789-8274-5efe04781ff3.png)
+![contacto](https://user-images.githubusercontent.com/82588598/128750619-a8b7eef3-2cc3-4c5c-8f74-97a048c5ff95.png)
 
 # Author
 - Carlos Cieslik
