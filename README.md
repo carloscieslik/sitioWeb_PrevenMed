@@ -4,6 +4,7 @@ Website for PrevenMed
 Website created for Prevenmed medical sanatorium with five sections, the website was made in Spanish version.
 # Technologies
 Project is created with:
+![todos](https://user-images.githubusercontent.com/82588598/128749074-d422c4c1-07fc-47a1-8977-4c8a14a7c46d.png)
 >
 >   * HTML5
 >   * CSS3
