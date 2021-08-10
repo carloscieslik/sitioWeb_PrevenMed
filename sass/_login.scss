@@ -1,19 +1,23 @@
 /*=========================================LOGIN FORM=========================================*/
 
 
-#footer {
+/*#footer {
     position:fixed;
     left:0px;
     bottom:0px;
     width:100%;
- }
+ }*/
+ 
+ 
+ 
 
-  #login .container #login-row #login-column #login-box {
-    margin-top: 20px;
-    max-width: 600px;
-    height: 320px;
-    border: 1px solid #9C9C9C;
-    background-color: #EAEAEA;
+ 
+ #login .container #login-row #login-column #login-box {
+   margin-top: 20px;
+   max-width: 600px;
+   height: 320px;
+   border: 1px solid #9C9C9C;
+   background-color: #EAEAEA;
   }
   #login .container #login-row #login-column #login-box #login-form {
     padding: 20px;
@@ -21,15 +25,25 @@
   #login .container #login-row #login-column #login-box #login-form #register-link {
     margin-top: -85px;
   }
-
+  
   .optionEnd{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
-
+  
   .textInfo{
-      margin: 5px 0px 5px 0px;
-      color: #00aaff;
+    margin: 5px 0px 5px 0px;
+    color: #00aaff;
   }
-
+  
+  
+  .bodyLogin{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  #footer{
+    margin-top: auto;
+  }

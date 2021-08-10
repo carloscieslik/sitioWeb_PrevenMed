@@ -12146,13 +12146,12 @@ fieldset:disabled .btn {
 }
 
 /*=========================================LOGIN FORM=========================================*/
-#footer {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-}
-
+/*#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+ }*/
 #login .container #login-row #login-column #login-box {
   margin-top: 20px;
   max-width: 600px;
@@ -12185,6 +12184,21 @@ fieldset:disabled .btn {
 .textInfo {
   margin: 5px 0px 5px 0px;
   color: #00aaff;
+}
+
+.bodyLogin {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#footer {
+  margin-top: auto;
 }
 
 /*=========================================MODIFICACIONES A BOOTSTRAP=========================================*/
