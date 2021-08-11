@@ -1,6 +1,14 @@
 /*=========================================MEDIA QUERIES=========================================*/
-/*Movil grande*/
 @media (max-width: 480px){
+ nav{
+     display: none;
+ } 
+ 
+}
+
+
+/*Movil grande*/
+@media (max-width: 716px){
     
     nav{
         width: 100%;
@@ -63,7 +71,7 @@
 
 /*ipads y tablets*/
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 717px) and (max-width: 992px){
    
     .contentHomeClass{
         flex-direction: column;

@@ -516,8 +516,14 @@ input {
 }
 
 /*=========================================MEDIA QUERIES=========================================*/
-/*Movil grande*/
 @media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+}
+
+/*Movil grande*/
+@media (max-width: 716px) {
   nav {
     width: 100%;
   }
@@ -634,7 +640,7 @@ input {
 }
 
 /*ipads y tablets*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 717px) and (max-width: 992px) {
   .contentHomeClass {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12146,12 +12152,6 @@ fieldset:disabled .btn {
 }
 
 /*=========================================LOGIN FORM=========================================*/
-/*#footer {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    width:100%;
- }*/
 #login .container #login-row #login-column #login-box {
   margin-top: 20px;
   max-width: 600px;
